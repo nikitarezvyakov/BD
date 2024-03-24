@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="submit"],
+input[type="button"],
+/* Стили для кнопок */
+.button-container {
+    display: flex; /* Расположение кнопок в ряд */
+    justify-content: center; /* Центрирование кнопок по горизонтали */
+    margin-top: 20px; /* Внешний отступ сверху */
+}
+
+.button {
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    background-color: #007bff; /* Синий цвет фона кнопки */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем границу кнопки */
+    border-radius: 25px; /* Закругление углов кнопки */
+    cursor: pointer; /* Изменение курсора при наведении */
+    font-size: 16px; /* Размер текста */
+    font-weight: bold; /* Жирный текст */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    margin: 0 10px; /* Внешние отступы кнопок */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Темно-синий цвет фона кнопки при наведении */
+}
+
+/* Стили для списка кнопок */
+.button-list {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+}
+
+.button-list li {
+    margin-bottom: 10px; /* Отступ между кнопками */
+}
+
+.button-list .button {
+    display: block; /* Превращаем кнопку в блочный элемент */
+    width: 100%; /* Ширина кнопки на всю ширину родительского элемента */
+    padding: 10px; /* Отступы внутри кнопки */
+    background-color: #007bff; /* Синий цвет фона кнопки */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем границу кнопки */
+    border-radius: 25px; /* Закругление углов кнопки */
+    cursor: pointer; /* Изменение курсора при наведении */
+    font-size: 16px; /* Размер текста */
+    font-weight: bold; /* Жирный текст */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
+}
+
+.button-list .button:hover {
+    background-color: #0056b3; /* Темно-синий цвет фона кнопки при наведении */
+}
+
+/* Стили для кнопок-карточек */
+.button-card {
+    display: inline-block; /* Отображение в виде блока */
+    padding: 20px; /* Отступы внутри карточки */
+    margin: 10px; /* Внешний отступ между карточками */
+    background-color: #007bff; /* Цвет фона карточки */
+    color: #fff; /* Цвет текста */
+    border: none; /* Убираем границу */
+    border-radius: 10px; /* Закругляем углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень */
+    cursor: pointer; /* Изменяем курсор при наведении */
+    transition: transform 0.3s, box-shadow 0.3s; /* Плавное изменение при наведении */
+}
+
+.button-card:hover {
+    transform: translateY(-5px); /* Поднимаем карточку при наведении */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Увеличиваем тень */
+}
+
+
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+select,
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+button:first-of-type {
+    margin-right: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form button {
+    margin: 10px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, input[type="text"], input[type="submit"],  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
